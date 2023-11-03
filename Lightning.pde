@@ -2,7 +2,8 @@ int wdt = 1920;  //dimensions of draw window
 int hgt = 1080;
 
 void setup(){
-  windowResize(wdt, hgt);
+  //windowResize(wdt, hgt);
+  setup(1920,1080);
   frameRate(30);
   background(100);
   strokeWeight(5);
